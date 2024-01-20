@@ -4,8 +4,8 @@ Get all devices from Azure AD (Entra ID) using mggraph
 This script is taken from https://o365reports.com/2023/04/18/get-azure-ad-devices-report-using-powershell/
 
 The script does not take piped input but requires command line input at runtime:
-    * -TenantID 
-        is the TenantID required for certificate based authentication 
+markup :    * -TenantID 
+              * is the TenantID required for certificate based authentication 
     * -ClientID 
         is the CLientID required for certificate based authentication
     * -CertificateThumbprint 
